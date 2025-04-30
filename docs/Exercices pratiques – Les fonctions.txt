@@ -1,0 +1,28 @@
+@everyone 
+# 🧪 Exercices pratiques – Les fonctions
+
+### 1. Crée une fonction `afficherDate` qui affiche la date actuelle dans la console.
+
+> Astuce : `new Date()` donne la date actuelle.
+
+---
+
+### 2. Crée une fonction `multiplierParDeux` qui prend un nombre en paramètre et affiche ce nombre multiplié par 2.
+
+---
+
+### 3. Crée une fonction `direBonjour` qui prend **un prénom** et **une heure** en paramètre :
+
+- Si l’heure est avant 18h, elle affiche "Bonjour [prénom]".
+- Sinon, elle affiche "Bonsoir [prénom]".
+
+---
+
+### 4. Crée une fonction `calculerSurfaceRectangle` qui prend une largeur et une hauteur, et affiche la surface (largeur × hauteur).
+
+---
+
+### 5. Crée une fonction `estMajeur` qui prend un âge et affiche :
+
+- `"Majeur"` si l’âge est supérieur ou égal à 18,
+- `"Mineur"` sinon.
