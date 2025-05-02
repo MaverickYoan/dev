@@ -17,6 +17,9 @@ const progressBar = document.getElementById("percent-loaded");
 progressBar.setAttribute("role", "progressbar");
 progressBar.setAttribute("aria-valuemin", 0);
 progressBar.setAttribute("aria-valuemax", 100);
+progressBar.setAttribute("aria-valuenow", 58);
+progressBar.setAttribute("aria-label", "Progression de la barre de progression");
+progressBar.setAttribute("aria-color", "green");
 
 // * Nous créons une fonction qui peut être appelée à tout moment pour mettre à jour la barre de progression. 
 function updateProgress(percentComplete) {
@@ -28,3 +31,5 @@ function updateProgress(percentComplete) {
 const tjrs = document.querySelector('.menthe')
 
 console.log(tjrs);
+
+// _______________________________________________________________________________

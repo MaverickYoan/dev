@@ -14,6 +14,11 @@ body {
     list-style-type: none;
 }
 
+/* Couleur des navLinks */
+.links {
+    color:green;
+}
+
 button {
     width: 30px;
     height: 30px;
@@ -24,6 +29,14 @@ button {
     /* background: green; */
 }
 
+#bar-color {
+    color: green
+}
+
+
+
+
+/* Ligne de séparation */
 hr {
     border: none;
     border-top: 10px double black;
@@ -33,6 +46,7 @@ hr {
     height: 1rem;
 }
 
+/* élément du milieu */
 hr::after {
     background: #fff;
     content: "§";
