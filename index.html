@@ -32,8 +32,8 @@
     <hr>
 
     <!-- * attribuer un ID pour pouvoir cibler dans ce cas ci-dessous : un paragraphe et un bouton -->
-    <!-- <p id="message">Bonjour</p> -->
-    <!-- <button id="btn">Click</button> -->
+    <p id="message">Bonjour</p>
+    <button id="btn">Click</button>
     <!-- <hr>
 
     <input type="text" id="firstName" placeholder="Votre prénom"><br>
@@ -45,8 +45,8 @@
     <!-- * Script -->
     <script>
         // déclaration de variables
-        // let message = document.getElementById('message')
-        // let button = document.getElementById('btn')
+        let message = document.getElementById('message')
+        let button = document.getElementById('btn')
 
         // let FirstNameInput = document.getElementById('FirstName')
         // let submit = document.getElementById('btn-Submit')
@@ -56,23 +56,23 @@
         // fonction javaScript pout insérer un texte après le = dans le message du paragraphe
         // Une fois que l'on clic le message d'affichage passe de Bonjour à Merci d'avoir clic
 
-        // button.addEventListener('click', function () {
-        //     console.log('fonction du clic')
-        //     message.innerText = 'Merci d\'avoir clic'
-        // })
+        button.addEventListener('click', function () {
+            console.log('fonction du clic')
+            message.innerText = 'Merci d\'avoir clic'
+        })
 
         // lance la fonction d'écoute d'événement lorsque passe la souris au dessus du bouton
 
-        // button.addEventListener('mouseover', function () {
-        //     console.log('fonction du clic')
-        //     message.innerText = 'Merci d\'avoir clic'
-        // })
+        button.addEventListener('mouseover', function () {
+            console.log('fonction du clic')
+            message.innerText = 'Merci d\'avoir clic'
+        })
 
 
         // button.addEventListener('click', function () {
         //     let YourFirstName = FirstNameInput.value
         //     console.log('YourFirstName')
-        //     // hello.innerText = 'Merci mon pote'
+        // hello.innerText = 'Merci mon pote'
         // })
 
 
