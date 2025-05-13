@@ -13,7 +13,7 @@
 </head>
 
 <body id="content">
-    <nav class="navbar">
+    <!-- <nav class="navbar">
         <div class="hamburger-menu" id="hamburgerMenu">
             <div class="bar"></div>
             <div class="bar"></div>
@@ -24,27 +24,61 @@
             <li><a href="#shop">Shop</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </nav> -->
 
     <p id="message">Hello</p>
     <button id="btn">ClickMe</button>
 
 
-
-
-
-
-
-
-    <script>
+    <!-- * Script Structures de contrôle, conditions et opérateurs de comparaison -->
+    <!-- <script>
         let x = 4 // Nous mettons dans la boîte x la variable 4
 
+        let test1 = x == 4; // true
+        let test2 = x === 4; // true
+        let test3 = x == '4'; // true
+        let test4 = x === '4'; // false
+        let test5 = x != '4'; // false
+        let test6 = x !== '4'; // true
+        let test7 = x > '4'; // false
+        let test8 = x >= '4'; // true
+        let test9 = x < '4'; // false
+
+        alert(test1)
+
+        alert('Valeur dans x égale à 4 (en valeur) ? : ' + test1 +
+            '\nValeur dans x égale à 4 (valeur & type) ? : ' + test2 +
+            '\nValeur dans x égale à "4" (en valeur) ? : ' + test3 +
+            '\nValeur dans x égale à "4" (valeur & type) ? : ' + test4 +
+            '\nValeur dans x différente de "4" (en valeur) ? : ' + test5 +
+            '\nValeur dans x différente de "4" (valeur & type) ? : ' + test6 +
+            '\nValeur dans x strictement supérieure à 4 ? : ' + test7 +
+            '\nValeur dans x supérieure ou égale à 4 ? : ' + test8 +
+            '\nValeur dans x strictement inférieure à 4 ? : ' + test9);
+
+        // console.log('test1')
+    </script> -->
 
 
+    <!-- * Script structures de contrôle conditionnelles if, if...else et if...else if...else -->
+    <script>
+        // if
+        let x = 4;
+        let y = 0;
+
+        if (x > 1) {
+            alert('x est sup à 1');
+        }   // l'alerte fonctionnera que si x est sup à 1
 
 
+        if (x == y) {
+            alert('x et y même valeur')
+        }   // l'alerte ne fonctionne pas car x est différent de y
 
 
+        if (y) {
+            alert('y est true')
+        }   // normal que cela n'affiche rien
 
 
 
