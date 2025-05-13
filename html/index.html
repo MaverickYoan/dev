@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- // META -->
+    <meta charset=utf-8>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <meta name="keywords" content="javaScript">
+
+    <!-- // LINK -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css\style.css" rel=stylesheet>
+
+    <!-- Titre -->
+    <title>JavaScript</title>
+</head>
+
+<body id="content">
+    <nav class="navbar">
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- * attribuer un ID pour pouvoir cibler dans ce cas ci-dessous : un paragraphe et un bouton -->
+    <p id="message">Bonjour</p>
+    <button id="btn">Click</button>
+
+    <script>
+        // déclaration de variables
+        let message = document.getElementById('message')
+        let button = document.getElementById('btn')
+
+        // lance la fonction d'écoute d'événement lorsque l'on clic
+        // fonction javaScript pout insérer un texte après le = dans le message du paragraphe
+        // Une fois que l'on clic le message d'affichage passe de Bonjour à Merci d'avoir clic 
+
+        button.addEventListener('click', function () {
+            console.log('fonction du clic')
+            message.innerText = 'Merci d\'avoir clic'
+        })
+
+        // lance la fonction d'écoute d'événement lorsque passe la souris au dessus du bouton
+
+        button.addEventListener('mouseover', function () {
+            console.log('fonction du clic')
+            message.innerText = 'Merci d\'avoir clic'
+        })
+
+    </script>
+
+
+    <!-- <script src="script\index.js"></script> -->
+</body>
+
+</html>
